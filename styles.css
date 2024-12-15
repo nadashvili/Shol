@@ -29,6 +29,19 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    color: #FFD700;
+    text-shadow: #FFD700 0px 0px 20px;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color:  #1E1E1E;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {text-shadow: #FFD700 0px 0px 20px;}
+  50%  {color: #FFE246;
+    text-shadow: #FFD700 0px 0px 10px;}
+  100% {text-shadow: #FFD700 0px 0px 20px;}
 }
 
 #productsGrid {
