@@ -143,14 +143,14 @@ header h1 {
 }
 @media only screen and (max-width: 600px) {
   #searchInput {
-    width: 100%;
+    width: 91%;
 }
 
 #categories {
-    width: 100%;
+    width: 35%;
 }
 
 #sortOrder {
-    width: 100%;
+    width: 55%;
 }
 }
