@@ -38,17 +38,18 @@ body {
   display: inline-block;
   outline: none;
   border: 2px solid #ffd819;
-  background: #ffd819;
+  background: #1E1E1E;
   border-radius: 5px;
   font-size: 15px;
   position: fixed;
   margin-top: 5px;
   margin-left: 5px;
+  border: #FFD700 3px initial;
 }
 a:link, a:visited {
   text-align: center;
   text-decoration: none;
-  color:  #121212;
+  color:  #FFD700;
 }
 .css-button-sharp--yellow:hover {
   background: #fff;
@@ -183,6 +184,26 @@ header h1 {
 
 .modal-content button:hover {
     background-color: #FFEA00;
+}
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #FFD700;
+  padding: px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fbtn{
+  width: 25%;
+  padding: 10px;
+  font-size: 15px;
+  margin:10px;
+  background-color: #1E1E1E;
+  border: none;
+  color: #FFD700;
+  border-radius: 2px;
+  font-family: fantasy;
 }
 @media only screen and (max-width: 600px) {
   #searchInput {
