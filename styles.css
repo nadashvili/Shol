@@ -26,7 +26,34 @@ body {
     margin: auto;
     overflow-x: hidden;
 }
-
+.contb{
+  min-width: auto;
+  height: auto;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 2px solid #ffd819;
+  background: #ffd819;
+  border-radius: 5px;
+  font-size: 10px;
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+a:link, a:visited {
+  text-align: center;
+  text-decoration: none;
+  color:  #121212;
+}
+.css-button-sharp--yellow:hover {
+  background: #fff;
+  color: #ffd819
+}
 header {
     background-color: #1E1E1E;
     padding: 10px 0;
