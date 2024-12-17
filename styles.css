@@ -84,6 +84,9 @@ header h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product-card {
@@ -94,6 +97,8 @@ header h1 {
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s;
+    border: inset 2px #FFD700;
+     width: 20%;
 }
 
 .product-card img {
@@ -217,4 +222,7 @@ footer{
 #sortOrder {
     width: 55%;
 }
+    .product-card{
+  width: 90%;
+    }
 }
