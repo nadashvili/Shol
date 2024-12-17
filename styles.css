@@ -191,14 +191,10 @@ header h1 {
 .modal-content button:hover {
     background-color: #FFEA00;
 }
-footer{
-  width: 100%;
-  height: auto;
-  background-color: #FFD700;
-  padding: px;
+nav{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 .fbtn{
   width: 25%;
