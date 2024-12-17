@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="შოპინგ საიტი, სადაც შეგიძლიათ იპოვოთ საუკეთესო პროდუქტები, როგორიცაა მობილური ტელეფონები, სარეცხი მანქანები, ელექტრო გიტარები და სხვა. სწრაფი და უსაფრთხო შესყიდვები!">
+    <title>MY SHOP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body><button class="contb"><a  href="mailto:nadashviligio707@gmail.com">CONTACT US</a></button>
+    <header><br>
+        <h1>My Shop</h1>
+        <input type="text" placeholder="ძებნა პროდუქტებისთვის..." id="searchInput" oninput="autoSearchProducts()">
+        <select id="categories" onchange="filterProducts()">
+            <option value="all">კატეგორია</option>
+            <option value="electronics">ელექტრონიკა</option>
+            <option value="appliances">სანტექნიკა</option>
+            <option value="musical-instruments">მუსიკალური ინსტრუმენტები</option>
+            <!-- დაამატეთ მეტი კატეგორია, საჭიროებისამებრ -->
+        </select>
+        <select id="sortOrder" onchange="sortProducts(this.value)">
+            <option value="price-asc">ფასის ზრდადობით</option>
+            <option value="price-desc">ფასის კლებადობით</option>
+        </select>
+    </header>
+
+    <div id="productsGrid">
+        <!-- პროდუქტის ბარათები დინამიურად შეიქმნება აქ -->
+    </div>
+
+    <div id="productModal">
+        <div class="modal-content">
+            <h2 id="modalProductName"></h2>
+            <p id="modalProductPrice"></p>
+            <p id="modalProductDescription"></p>
+            <p>მომწოდებლის ტელეფონი: <span id="modalSellerPhone"></span></p>
+            <button onclick="closeModal()">დახურვა</button>
+        </div>
+    </div>
+    <footer>
+      <button class="fbtn"><a href="mailto:nadashviligio707@gmail.com">
+        Contact Us</a>
+        </button>
+       <button class="fbtn"><a href="">
+        Instagram</a>
+        </button>
+        <button class="fbtn"><a href="">
+        TikTok</a>
+        </button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
