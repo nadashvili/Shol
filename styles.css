@@ -99,6 +99,7 @@ header h1 {
     transition: transform 0.3s;
     border: inset 2px #FFD700;
      width: 20%;
+    height:auto;
 }
 
 .product-card img {
