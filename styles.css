@@ -196,7 +196,8 @@ nav{
   font-family: fantasy;
 }
 p{
-    font-size:20px;
+    font-size:10px;
+}
 @media only screen and (max-width: 600px) {
   #searchInput {
     width: 91%;
