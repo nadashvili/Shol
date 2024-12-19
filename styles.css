@@ -195,6 +195,8 @@ nav{
   border-radius: 2px;
   font-family: fantasy;
 }
+p{
+    font-size:20px;
 @media only screen and (max-width: 600px) {
   #searchInput {
     width: 91%;
