@@ -109,7 +109,7 @@ header h1 {
 
 #searchInput {
     width: 30%;
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
     margin-top: 10px;
@@ -120,7 +120,7 @@ header h1 {
 
 #categories {
     width: 30%;
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
     margin-top: 10px;
@@ -131,7 +131,7 @@ header h1 {
 
 #sortOrder {
     width: 30%;
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
     margin-top: 10px;
