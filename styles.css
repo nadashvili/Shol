@@ -64,6 +64,7 @@ header {
     background-color: #FFD700;
     padding: 10px 0;
     text-align: center;
+    width:100%;
 }
 
 header h1 {
