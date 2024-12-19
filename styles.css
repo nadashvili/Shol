@@ -13,7 +13,7 @@
     -ms-user-select: none;
     user-select: none;
     -webkit-tap-highlight-color:rgba(0,0,0,0)
-    font-family:myffont;
+    ;
 }
 @font-face{
   font-family: 'myffont';
@@ -21,7 +21,7 @@
 }
 /* საერთო სტილი */
 body {
-    font-family: Arial, sans-serif;
+    font-family: myffont;
     background-color: #121212;
     color: #FFFFFF;
     line-height: 1.6;
