@@ -197,10 +197,11 @@ nav{
 .pm1{
     width:100%;
     height:auto;
-    font-size:15px;
+    font-size:13px;
     text-aling:center;
     color:#121212;
     padding:20px;
+    margin-top:-10px;
 }
 @media only screen and (max-width: 600px) {
   #searchInput {
