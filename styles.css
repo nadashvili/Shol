@@ -224,6 +224,7 @@ nav{
   width: 90%;
     }
     .fbtn{
-        font-size: 10px
+        font-size: 13px;
+        padding:5px;
     }
 }
