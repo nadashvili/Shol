@@ -208,6 +208,9 @@ nav{
     padding:20px;
     margin-top:-10px;
 }
+.sif{
+    margin-top:20px;
+}
 @media only screen and (max-width: 600px) {
   #searchInput {
     width: 91%;
@@ -226,5 +229,8 @@ nav{
     .fbtn{
         font-size: 13px;
         padding:7px;
+    }
+    .sif{
+        margin-top:0px;
     }
 }
