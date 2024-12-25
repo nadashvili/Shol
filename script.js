@@ -61,3 +61,10 @@ function sortProducts(order) {
 
 // თავდაპირველად ყველა პროდუქტის ნახვა
 renderProducts(products);
+function filterByPrice() {
+    const minPrice = parseFloat(document.getElementById('minPrice').value) || 0;
+    const maxPrice = parseFloat(document.getElementById('maxPrice').value) || Infinity;
+
+    const filteredProducts = products.filter(product => product.price >= minPrice && product.price <= maxPrice);
+    renderProducts(filteredProducts);
+}
