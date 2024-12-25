@@ -58,3 +58,4 @@ function sortProducts(order) {
     });
     renderProducts(sortedProducts);
 }
+renderProducts(products);
