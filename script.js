@@ -1,9 +1,7 @@
 const products = [
-    { id: 1, name: 'მობილური ტელეფონი', price: 299.99, description: 'კარგი ხარისხის კამერით მაღალი ხარისხის მობილური ტელეფონი.', category: 'ელექტრონიკა', image: 'telefoni.jpg', sellerPhone: '123-456-7890' },
-    
-    { id: 2, name: 'სარეცხი მანქანა', price: 399.99, description: 'სრულად ავტომატური სარეცხი მანქანა მოწინავე ფუნქციებით.', category: 'სანტექნიკა', image: 'manqana.png', sellerPhone: '123-456-7891' },
-    { id: 3, name: 'ელექტრული გიტარა', price: 499.99, description: 'პროფესიონალური ელექტრული გიტარა განსაკუთრებული ხმით.', category: 'მუსიკალური', image: 'gitara.jpg', sellerPhone: '123-456-7892' },
-    
+    { id: 1, name: 'მობილური ტელეფონი', price: 299.99, description: 'კარგი ხარისხის კამერით მაღალი ხარისხის მობილური ტელეფონი.', category: 'ელექტრონიკა', image: 'https://tinyurl.com/ksnpthdj' },
+    { id: 2, name: 'სარეცხი მანქანა', price: 399.99, description: 'სრულად ავტომატური სარეცხი მანქანა მოწინავე ფუნქციებით.', category: 'სანტექნიკა', image: 'https://imageslidergenerator.shahmirfaisal.com/slider?image=https%3A%2F%2Fi.ibb.co%2F272SDh2%2F1000020771.jpg&image=https%3A%2F%2Fi.ibb.co%2FzxXBtZK%2F1000020799.jpg&animationType=slide&autoPlay=true&radioButtonType=none&radioButtonSize=20&radioButtonGap=10&arrowsType=none&arrowsBackground=hidden&arrowsBackgroundVisibility=212&arrowsSize=46&arrowsOffset=1&arrowsColor=%23fff', sellerPhone: '123-456-7891' },
+    { id: 3, name: 'ელექტრული გიტარა', price: 499.99, description: 'პროფესიონალური ელექტრული გიტარა განსაკუთრებული ხმით.', category: 'მუსიკალური', image: 'https://imageslidergenerator.shahmirfaisal.com/slider?image=https%3A%2F%2Fi.ibb.co%2FzxXBtZK%2F1000020799.jpg&animationType=slide&autoPlay=true&radioButtonType=none&radioButtonSize=20&radioButtonGap=10&arrowsType=none&arrowsBackground=hidden&arrowsBackgroundVisibility=212&arrowsSize=46&arrowsOffset=1&arrowsColor=%23fff', sellerPhone: '123-456-7892' },
 ];
 
 function renderProducts(productsList) {
@@ -14,7 +12,7 @@ function renderProducts(productsList) {
         const productCard = document.createElement('div');
         productCard.classList.add('product-card');
         productCard.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
+            <iframe src="${product.image}" frameborder="0" width="100%" height="200"></iframe>
             <h3>${product.name}</h3>
             <p class="product-price">${product.price.toFixed(2)} ლარი</p>
         `;
@@ -58,4 +56,6 @@ function sortProducts(order) {
     });
     renderProducts(sortedProducts);
 }
+
+// თავდაპირველად ყველა პროდუქტის ნახვა
 renderProducts(products);
