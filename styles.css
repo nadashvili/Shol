@@ -226,6 +226,10 @@ nav{
 }
     .product-card{
   width: 80%;
+        display: flex;
+      flex-wrap: wrap;
+      align-items: space-around;
+      justify-content: center;
     }
     .fbtn{
         font-size: 13px;
